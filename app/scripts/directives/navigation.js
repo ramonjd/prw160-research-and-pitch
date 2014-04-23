@@ -8,7 +8,7 @@ angular.module('pencilsToPixelsApp')
       replace : true,
       link: function postLink(scope, element, attrs) {
         scope.currentPage = 'home';
-        $rootScope.$on('$routeChangeSuccess', function($scope, current, pre) {
+        $rootScope.$on('$routeChangeSuccess', function($scope, current) {
           scope.currentPage = current.$$route.pageId;
           $window.document.title = 'PRW160 Research & Development :: ' + current.$$route.pageName;
         });
