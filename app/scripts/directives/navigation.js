@@ -3,7 +3,7 @@
 angular.module('pencilsToPixelsApp')
   .directive('navigation', function ($rootScope, $window) {
     return {
-      template: '<nav class="{{currentPage}}"><ul><li><a href="#home">Home</li><li><a href="#industry-analysis">Industry Analysis</li><li><a href="#research">Research</li><li><a href="#presentation">Presentation</li></ul></nav>',
+      templateUrl: '/views/navigation.html',
       restrict: 'E',
       replace : true,
       link: function postLink(scope, element, attrs) {
