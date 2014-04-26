@@ -2,7 +2,8 @@
 
 angular
   .module('pencilsToPixelsApp', [
-    'ngRoute'
+    'ngRoute',
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
     $routeProvider
