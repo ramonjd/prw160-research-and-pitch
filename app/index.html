@@ -18,27 +18,25 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="pencilsToPixelsApp" class="{{currentPage}}">
-    <div id="wrap">
-
+  <body ng-app="pencilsToPixelsApp">
         <!--[if lt IE 7]>
           <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <navigation></navigation>
-
-        <section ng-show="currentPage=='home'" id="hero-spot" class="hero-spot">
-            <div class="container text-center">
-                <button class="btn btn-success btn-lg">LOGO</button>
-                <h1>PWR160 Research &amp; Development</h1>
-            </div>
-        </section>
-
         <!-- Add your site or application content here -->
+        <div id="wrap">
 
-        <section class="container" ng-view=""></section>
-        <div id="push"></div>
-    </div>
+            <navigation></navigation>
+
+            <section ng-show="currentPage=='home'" id="hero-spot" class="hero-spot">
+                <div class="container text-center">
+                    <button class="btn btn-success btn-lg">LOGO</button>
+                    <h1>PWR160 Research &amp; Development</h1>
+                </div>
+            </section>
+            <section class="container" ng-view=""></section>
+            <div id="push"></div>
+        </div>
 
     <site-footer></site-footer>
 
@@ -80,19 +78,21 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/home.js"></script>
-        <script src="scripts/controllers/industryanalysis.js"></script>
-        <script src="scripts/controllers/presentation.js"></script>
-        <script src="scripts/controllers/about.js"></script>
-        <script src="scripts/directives/navigation.js"></script>
-        <script src="scripts/controllers/research.js"></script>
-        <script src="scripts/directives/rolllink.js"></script>
-        <script src="scripts/controllers/accordion.js"></script>
-        <script src="scripts/controllers/bibliography.js"></script>
-        <script src="scripts/directives/sitefooter.js"></script>
-        <script src="scripts/controllers/carousel.js"></script>
-        <!-- endbuild -->
-</body>
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/home.js"></script>
+    <script src="scripts/controllers/industryanalysis.js"></script>
+    <script src="scripts/controllers/presentation.js"></script>
+    <script src="scripts/controllers/about.js"></script>
+    <script src="scripts/directives/navigation.js"></script>
+    <script src="scripts/controllers/research.js"></script>
+    <script src="scripts/directives/rolllink.js"></script>
+    <script src="scripts/controllers/accordion.js"></script>
+    <script src="scripts/controllers/bibliography.js"></script>
+    <script src="scripts/directives/sitefooter.js"></script>
+    <script src="scripts/controllers/carousel.js"></script>
+    <!-- endbuild -->
+
+
+    </body>
 </html>

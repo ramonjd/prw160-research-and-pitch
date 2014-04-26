@@ -8,11 +8,10 @@ angular.module('pencilsToPixelsApp')
 	    var newWidth = 940 + slides.length;
 	    slides.push({
 	      image: 'http://placekitten.com/' + newWidth + '/450',
-	      text: ['More','Extra','Lots of','Surplus'][slides.length % 8] + ' ' +
-	        ['Cats', 'Kittys', 'Felines', 'Cutes'][slides.length % 8]
+	      text: ['More','Extra','Lots of','Surplus'][slides.length % 4] + ' ' + ['Cats', 'Kittys', 'Felines', 'Cutes'][slides.length % 4]
 	    });
 	  };
-	  for (var i=0; i<8; i++) {
+	  for (var i=0; i<4; i++) {
 	    $scope.addSlide();
 	  }
   });
