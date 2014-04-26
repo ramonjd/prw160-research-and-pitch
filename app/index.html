@@ -19,15 +19,27 @@
     <!-- endbuild -->
   </head>
   <body ng-app="pencilsToPixelsApp">
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <navigation></navigation>
+    <div id="wrap">
 
-    <!-- Add your site or application content here -->
+        <!--[if lt IE 7]>
+          <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
+        <navigation></navigation>
 
-    <div class="container" ng-view=""></div>
+        <!-- Add your site or application content here -->
+
+        <div class="container" ng-view=""></div>
+        <div id="push"></div>
+    </div>
+
+    <div id="footer">
+        <footer class="container">
+            <ul class="nav nav-pills">
+              <li><a href="#bibliography">Bibliography</a></li>
+            </ul>
+        <footer>
+    </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -77,6 +89,7 @@
         <script src="scripts/controllers/research.js"></script>
         <script src="scripts/directives/rolllink.js"></script>
         <script src="scripts/controllers/accordion.js"></script>
+        <script src="scripts/controllers/bibliography.js"></script>
         <!-- endbuild -->
 </body>
 </html>

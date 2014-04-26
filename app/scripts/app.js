@@ -40,6 +40,10 @@ angular
         pageId: 'research',
         pageName: 'Research'
       })
+      .when('/bibliography', {
+        templateUrl: 'views/bibliography.html',
+        controller: 'BibliographyCtrl'
+      })
       .otherwise({
         redirectTo: '/home'
       });
