@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="pencilsToPixelsApp">
+  <body ng-app="pencilsToPixelsApp" class="{{currentPage}}">
     <div id="wrap">
 
         <!--[if lt IE 7]>
@@ -27,19 +27,20 @@
 
         <navigation></navigation>
 
+        <section ng-show="currentPage=='home'" id="hero-spot" class="hero-spot">
+            <div class="container text-center">
+                <button class="btn btn-success btn-lg">LOGO</button>
+                <h1>PWR160 Research &amp; Development</h1>
+            </div>
+        </section>
+
         <!-- Add your site or application content here -->
 
-        <div class="container" ng-view=""></div>
+        <section class="container" ng-view=""></section>
         <div id="push"></div>
     </div>
 
-    <div id="footer">
-        <footer class="container">
-            <ul class="nav nav-pills">
-              <li><a href="#bibliography">Bibliography</a></li>
-            </ul>
-        <footer>
-    </div>
+    <site-footer></site-footer>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -90,6 +91,8 @@
         <script src="scripts/directives/rolllink.js"></script>
         <script src="scripts/controllers/accordion.js"></script>
         <script src="scripts/controllers/bibliography.js"></script>
+        <script src="scripts/directives/sitefooter.js"></script>
+        <script src="scripts/controllers/carousel.js"></script>
         <!-- endbuild -->
 </body>
 </html>

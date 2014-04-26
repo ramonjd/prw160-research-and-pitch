@@ -4,6 +4,6 @@
 
 <ol>
     <li ng-repeat="source in sources" id="#{{$index+1}}"> 
-        {{title}} Available from:  &lt; <a href="{{source.link}}" target="_blank">{{source.linkText}}</a> <i class="fa fa-external-link"></i> &gt;  [{{source.accessed}}]
+        {{source.title}} Available from:  &lt; <a href="{{source.link}}" target="_blank">{{source.linkText}}</a> <i class="fa fa-external-link"></i> &gt;  [{{source.accessed}}]
     </li>
 </ol>
