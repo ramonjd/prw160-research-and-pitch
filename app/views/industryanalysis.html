@@ -26,7 +26,7 @@
     </div>
     <div class="col-md-5 col-sm-6 col-xs-8">
         <div class="thumbnail">
-          <img src="images/lolcat-dickens.jpg" alt="LOLCAT Dickens">
+          <img class="img-responsive" src="images/lolcat-dickens.jpg" alt="LOLCAT Dickens">
           <div class="caption">
             <blockquote class="blockquote-reverse">
                 <p>What greater gift than the love of a cat.</p>
@@ -54,23 +54,31 @@
 
     </div>
     <div class="col-md-5 col-sm-6 col-xs-8">
-    
+        <h3>Popular social media channels for authors</h3>
         <div ng-controller="AccordionCtrl">
           <accordion close-others="oneAtATime">
-            <accordion-group heading="Static Header, initially expanded" is-open="true">
-              This content is straight in the template.
-            </accordion-group>
-            <accordion-group heading="Facebook">
-              <p>Facebook</p>
+            <accordion-group heading="Facebook" is-open="true">
+              <p><i class="fa fa-facebook-square fa-2x"></i> The daddy of social networks, with 1.23 billion active users, allows people and businesses to connect and share photos of their cats with friends and general members of the stalking public.</p>
+                <div class="alert alert-info clearfix">
+                    <p>
+                        <img class="img-circle pull-right" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/t1.0-1/c0.9.75.75/946814_10151577885606211_1834778781_t.jpg" alt="Paulo Coelho">
+                        <i class="fa fa-info-circle"></i> 
+                        At the time of writing (<date>April, 2014</date>), <a href="https://www.facebook.com/paulocoelho">Paulo Coelho</a> was officially the most followed author on Facebook. See the list of <a href="http://fanpagelist.com/category/authors/">top authors</a>.
+                    </p>
+                </div>
+
             </accordion-group>
             <accordion-group heading="Twitter">
-                <p>Twitter</p>
+                <p><i class="fa fa-twitter-square fa-2x"></i> A micro messaging/blogging platform which allows its 500 million registered users to tell the world what’s on their minds in 140 characters or less.</p>
+                <div class="alert alert-info clearfix">
+                    <p>
+                        <img class="img-circle pull-right" src="https://pbs.twimg.com/profile_images/378800000474715943/222215543a2cf37c5c305e6db0a56ae8_bigger.jpeg" alt="@neilhimself">
+                        <i class="fa fa-info-circle"></i> <a hred="https://twitter.com/neilhimself">Neil Gaiman</a> is one of the most prolific Tweeters, according to <a href="http://www.telegraph.co.uk/culture/books/9957341/Top-ten-most-prolific-authors-on-Twitter.html">The Telegraph</a>.
+                    </p>
+                </div>
             </accordion-group>
-            <accordion-group is-open="isopen">
-                <accordion-heading>
-                    I can have markup, too! <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen, 'glyphicon-chevron-right': !isopen}"></i>
-                </accordion-heading>
-                This is just some content to illustrate fancy headings.
+            <accordion-group heading="Goodreads">
+                <p><i class="fa fa-book fa-2x"></i> A haunt for writers, readers, dreamers to review, rate, share books, and track the progress of the literary output and consumption.</p>
             </accordion-group>
           </accordion>
         </div>
