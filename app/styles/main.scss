@@ -93,14 +93,18 @@ $icon-font-path: "/fonts/";
 
 /* Space out content a bit */
 body {
-    padding-top: 60px;
+    padding-top: 50px;
     &.home {
         padding-top:0;
     }
 }
 
+h1, h2, h3, h4, h5, .navbar-brand {
+    font-family: 'Bitter', 'serif';
+}
+
 #hero-spot {
-  padding: 100px 20px 50px 20px;
+  padding: 50px 20px 50px 20px;
   position: relative;
   overflow: hidden;
   background: #1A2233;
@@ -108,8 +112,31 @@ body {
   margin-bottom:20px;
 }
 
+p > img.pull-left {
+    margin:0 10px 10px 0;
+}
 
-.row .thumbnail > img {
+.google-map {
+    height:350px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.row .thumbnail a > img {
     width:100%;
 }
 
