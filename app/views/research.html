@@ -134,7 +134,22 @@
 <hr>
 
 <h2><i class="fa fa-bug"></i> The Pacific, weather and the natural environment</h2>
+<div ng-controller="CarouselCtrl">
 
+  <div style="height: 450px">
+    <carousel interval="myInterval">
+      <slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.image}}" style="margin:auto;">
+        <div class="carousel-caption">
+          <h4>Slide {{$index}}</h4>
+          <p>{{slide.text}}</p>
+        </div>
+      </slide>
+    </carousel>
+  </div>
+
+
+</div>
 <hr>
 
 <h2><i class="fa fa-usd"></i> Lifestyle, money and culture</h2>
