@@ -135,7 +135,6 @@ p {
     padding-top: 30px; height: 0; overflow: hidden;
 }
 
- 
 
 .video-container iframe,
 .video-container object,
@@ -146,6 +145,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
+    z-index:100;
 }
 
 .row .thumbnail a > img {
