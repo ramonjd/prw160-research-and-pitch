@@ -140,8 +140,21 @@ angular.module('pencilsToPixelsApp')
             link: 'http://www.domain.com.au/content/files/apm/reports/ap1400103_housingmarketreport_jan_apm.pdf',
             accessed: '1 May 2014',
             srcPage: '#research'
+        },
+        {
+            title: 'Australia 1988-1989: The start of the real \‘Falcadore\’ era, 5 January, 1990', 
+            linkText : 'http://bestsellingcarsblog.com',
+            link: 'http://bestsellingcarsblog.com/1990/01/05/australia-1988-1989-the-start-of-the-real-falcadore-era/',
+            accessed: '6 May 2014',
+            srcPage: '#research'
+        },
+        {
+            title: 'THE FIRST FLEET, BOTANY BAY AND THE BRITISH PENAL COLONY', 
+            linkText : 'http://www.migrationheritage.nsw.gov.au',
+            link: 'http://www.migrationheritage.nsw.gov.au/exhibition/objectsthroughtime-history/ott1788/',
+            accessed: '8 May 2014',
+            srcPage: '#research'
         }
-
 
     ];
     
