@@ -76,7 +76,7 @@ angular.module('pencilsToPixelsApp')
             srcPage: '#research'
         },
         {
-            title: 'Wikipedia: http://en.wikipedia.org/wiki/World_Expo_88, [wiki article]', 
+            title: 'Wikipedia: World Expo 88, [wiki article]', 
             linkText : 'http://en.wikipedia.org/wiki/World_Expo_88',
             link: 'http://en.wikipedia.org/wiki/World_Expo_88',
             accessed: '6 May 2014',
@@ -90,12 +90,37 @@ angular.module('pencilsToPixelsApp')
             srcPage: '#research'
         },
         {
+            title: 'History of Parliament House', 
+            linkText : 'http://www.aph.gov.au/',
+            link: 'http://www.aph.gov.au/Visit_Parliament/About_the_Building/History_of_Parliament_House',
+            accessed: '12 May 2014',
+            srcPage: '#research'
+        },
+
+        {
             title: 'Gangland witness Jason Ryan tells why he put his life on the line to dob in the Walsh St police killers, October 12, 2013', 
             linkText : 'http://www.heraldsun.com.au/news/law-order/',
             link: 'http://www.heraldsun.com.au/news/law-order/gangland-witness-jason-ryan-tells-why-he-put-his-life-on-the-line-to-dob-in-the-walsh-st-police-killers/story-fni0ffnk-1226745448263',
             accessed: '7 May 2014',
             srcPage: '#research'
         },
+
+        {
+            title: 'Australian Bureau of Meteorology: Climate Data Online', 
+            linkText : 'http://www.bom.gov.au/',
+            link: 'http://www.bom.gov.au/climate/data/',
+            accessed: '11 May 2014',
+            srcPage: '#research'
+        },
+
+        {
+            title: 'NSW Department of Primary Industries: Marine habitats', 
+            linkText : 'http://www.dpi.nsw.gov.au/fisheries/habitat/aquatic-habitats/marine',
+            link: 'http://www.dpi.nsw.gov.au/fisheries/habitat/aquatic-habitats/marine',
+            accessed: '11 May 2014',
+            srcPage: '#research'
+        },
+
         {
             title: 'What it used to cost, 2 April, 2014', 
             linkText : 'http://guides.slv.vic.gov.au/',
@@ -153,6 +178,13 @@ angular.module('pencilsToPixelsApp')
             linkText : 'http://www.migrationheritage.nsw.gov.au',
             link: 'http://www.migrationheritage.nsw.gov.au/exhibition/objectsthroughtime-history/ott1788/',
             accessed: '8 May 2014',
+            srcPage: '#research'
+        },
+        {
+            title: 'Fellowship of First Fleeters: Charlotte', 
+            linkText : 'http://www.fellowshipfirstfleeters.org.au',
+            link: 'http://www.fellowshipfirstfleeters.org.au/janemcmanus.htm',
+            accessed: '13 May 2014',
             srcPage: '#research'
         }
 

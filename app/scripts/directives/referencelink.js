@@ -8,6 +8,9 @@ angular.module('pencilsToPixelsApp')
       replace: false,
       scope: {
           link: '=referencelink'
+      }, 
+      link: function postLink(scope, element, attrs) {
+        console.log(scope.link)
       }
     };
   });
