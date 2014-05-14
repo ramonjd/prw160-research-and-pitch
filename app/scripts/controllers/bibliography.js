@@ -174,6 +174,22 @@ angular.module('pencilsToPixelsApp')
             srcPage: '#research'
         },
         {
+            title: 'Welch, D., Religious divide drives bikie war (Sydney Morning Herald Online)', 
+            linkText : 'http://www.smh.com.au/national/',
+            link: 'http://www.smh.com.au/national/religious-divide-drives-bikie-war-20090215-887l.html',
+            accessed: '14 May 2014',
+            srcPage: '#research'
+        },
+
+        {
+            title: 'The Bikie Wars (Sydney Morning Herald Online)', 
+            linkText : 'http://www.smh.com.au/interactive/bikie-wars/index.html',
+            link: 'http://www.smh.com.au/interactive/bikie-wars/index.html',
+            accessed: '14 May 2014',
+            srcPage: '#research'
+        },
+
+        {
             title: 'THE FIRST FLEET, BOTANY BAY AND THE BRITISH PENAL COLONY', 
             linkText : 'http://www.migrationheritage.nsw.gov.au',
             link: 'http://www.migrationheritage.nsw.gov.au/exhibition/objectsthroughtime-history/ott1788/',
