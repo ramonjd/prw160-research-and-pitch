@@ -51,43 +51,10 @@ p {
 
 .cars {
     img {
-        opacity: 0;
         margin:5px;
         display:inline-block;
-        -ms-transition: all .4s ease-out .1s;
-        -webkit-transition: all .4s ease-out .1s;
-        transition: all .4s ease-out .1s;
-        -webkit-transition-timing-function: cubic-bezier(0.175,.885,.32,1.275);
-        -ms-transition-timing-function: cubic-bezier(0.175,.885,.32,1.275);
-        transition-timing-function: cubic-bezier(0.175,.885,.32,1.275);
         width:250px;
-        &.car_01 {
-            -ms-transition: all .4s ease-out .2s;
-            -webkit-transition: all .4s ease-out .2s;
-            transition: all .4s ease-out .2s;
-        }
-        &.car_02 {
-            -ms-transition: all .4s ease-out .3s;
-            -webkit-transition: all .4s ease-out .3s;
-            transition: all .4s ease-out .3s;
-        }
-        &.car_03 {
-            -ms-transition: all .4s ease-out .4s;
-            -webkit-transition: all .4s ease-out .4s;
-            transition: all .4s ease-out .4s;
-        }
-        &.car_04 {
-            -ms-transition: all .4s ease-out .5s;
-            -webkit-transition: all .4s ease-out .5s;
-            transition: all .4s ease-out .5s;
-        }
-    }
-    &.in-view {
-        img {
-            opacity:1;
-        }
-    }
-
+   }     
 }
 
 /* BOOKS */

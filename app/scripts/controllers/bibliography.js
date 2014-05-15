@@ -2,9 +2,8 @@
 
 angular.module('pencilsToPixelsApp')
   .controller('BibliographyCtrl', function ($scope, $routeParams, $location, $anchorScroll) {
-    
-    if ($routeParams.reference) {
-        $scope.currentReference = $routeParams.scrollTo;
+    if ($location.hash()) {
+        $scope.currentReference = $location.hash();
     }
 
 

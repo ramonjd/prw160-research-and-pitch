@@ -3,7 +3,7 @@
 angular.module('pencilsToPixelsApp')
   .directive('referencelink', function () {
     return {
-      template: '<a href="/bibliography?#{{link}}" id="ref{{link}}">{{link}}</a>',
+      template: '<a href="/bibliography#{{link}}" id="{{link}}">{{link}}</a>',
       restrict: 'A',
       replace: false,
       scope: {
