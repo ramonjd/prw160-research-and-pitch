@@ -5,7 +5,11 @@ angular
     'ngRoute',
     'ui.bootstrap'
   ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, $locationProvider) {
+
+  $locationProvider.html5Mode(true);
+  $locationProvider.hashPrefix('!');
+
     $routeProvider
       .when('/', {
         redirectTo: '/home'
@@ -47,4 +51,12 @@ angular
       .otherwise({
         redirectTo: '/home'
       });
-  });
+  }).run(function($rootScope, $location, $anchorScroll, $routeParams) {
+    //when the route is changed scroll to the proper element.
+    $rootScope.$on('$routeChangeSuccess', function(newRoute, oldRoute) {
+      if ($routeParams.ref) {
+            $location.hash('ref'+$routeParams.ref);
+          $anchorScroll();  
+      }
+    });
+});
