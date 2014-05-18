@@ -260,17 +260,6 @@ angular.module('pencilsToPixelsApp')
             book: true
         },
 
-
-        {
-            author: 'Rice, D., 2013', 
-            title : 'Sales alive and well as definition of book evolves, 30 May, 2013 (ABC Online)',
-            linkText : 'http://www.abc.net.au/news/',
-            link: 'http://www.abc.net.au/news/2013-05-28/the-book-is-not-dead-it-is-simply-being-redefined/4717872/?site=science/memory&topic=latest',
-            accessed: '18 May 2014',
-            srcPage: 'research'
-        },
-
-
         {
             author: 'Rosenbloom, H.,', 
             title : 'Book-trade blues, 27 February, 2012',
@@ -279,11 +268,14 @@ angular.module('pencilsToPixelsApp')
             accessed: '18 May 2014',
             srcPage: 'research'
         },
-
-
-
-
-
+        {
+            author: 'Rice, D., 2013', 
+            title : 'Sales alive and well as definition of book evolves, 30 May, 2013 (ABC Online)',
+            linkText : 'http://www.abc.net.au/news/',
+            link: 'http://www.abc.net.au/news/2013-05-28/the-book-is-not-dead-it-is-simply-being-redefined/4717872/?site=science/memory&topic=latest',
+            accessed: '18 May 2014',
+            srcPage: 'research'
+        },
 
 
         {   
