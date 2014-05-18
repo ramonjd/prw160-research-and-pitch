@@ -103,6 +103,7 @@ angular.module('pencilsToPixelsApp')
         },
 
         {
+            author: 'Anderson, P.,',
             title: 'Gangland witness Jason Ryan tells why he put his life on the line to dob in the Walsh St police killers, 12 October, 2013', 
             linkText : 'http://www.heraldsun.com.au/news/law-order/',
             link: 'http://www.heraldsun.com.au/news/law-order/gangland-witness-jason-ryan-tells-why-he-put-his-life-on-the-line-to-dob-in-the-walsh-st-police-killers/story-fni0ffnk-1226745448263',
@@ -179,7 +180,7 @@ angular.module('pencilsToPixelsApp')
             srcPage: 'research'
         },
         {
-            author: 'Welch, D.,',
+            author: 'Welch, D., 2009',
             title: 'Religious divide drives bikie war, 16 February, 2009 (Sydney Morning Herald Online)', 
             linkText : 'http://www.smh.com.au/national/',
             link: 'http://www.smh.com.au/national/religious-divide-drives-bikie-war-20090215-887l.html',
@@ -196,7 +197,7 @@ angular.module('pencilsToPixelsApp')
         },
 
         {
-            author: 'James, C.,',     
+            author: 'James, C., 2008',     
             title: 'Adelaide Finks jailed for attacking Hells Angel Christopher Wayne Hudson, 4 September, 2008  (Adelaide Now Online)', 
             linkText : 'http://www.adelaidenow.com.au',
             link: 'http://www.adelaidenow.com.au/news/sa-finks-jailed-for-attacking-hells-angel/story-e6freol3-1111117402609',
@@ -214,6 +215,7 @@ angular.module('pencilsToPixelsApp')
         },
 
         {
+            author: 'Migration Heritage., ',
             title: 'THE FIRST FLEET, BOTANY BAY AND THE BRITISH PENAL COLONY', 
             linkText : 'http://www.migrationheritage.nsw.gov.au',
             link: 'http://www.migrationheritage.nsw.gov.au/exhibition/objectsthroughtime-history/ott1788/',
@@ -231,6 +233,7 @@ angular.module('pencilsToPixelsApp')
 
 
         {
+            author: 'Australian Bureau of Statistics',
             title: 'Arts and Culture in Australia: A Statistical Overview, 2011', 
             linkText : 'http://www.abs.gov.au/ausstats/',
             link: 'http://www.abs.gov.au/ausstats/abs@.nsf/Products/1B3531FF481F7C6BCA257968000CBCB1',
@@ -240,7 +243,7 @@ angular.module('pencilsToPixelsApp')
 
 
         {
-            author: 'Milliot, J.,',
+            author: 'Milliot, J., 2012,',
             title: 'Industry Sales Pegged At $27.2 Billion, 20 July 2012 (Publishers Weekly)', 
             linkText : 'http://www.publishersweekly.com',
             link: 'http://www.publishersweekly.com/pw/by-topic/industry-news/financial-reporting/article/53112-industry-sales-pegged-at-27-2-billion.html',
@@ -250,7 +253,16 @@ angular.module('pencilsToPixelsApp')
 
 
         {
-            author: 'Rice, D., ', 
+            author: 'Australian Writer\’s Marketplace', 
+            title : 'The Australian Writer\’s Marketplace, 2007/2008 Edition',
+            publisher: 'AWM Print Editions.', 
+            srcPage: 'research',
+            book: true
+        },
+
+
+        {
+            author: 'Rice, D., 2013', 
             title : 'Sales alive and well as definition of book evolves, 30 May, 2013 (ABC Online)',
             linkText : 'http://www.abc.net.au/news/',
             link: 'http://www.abc.net.au/news/2013-05-28/the-book-is-not-dead-it-is-simply-being-redefined/4717872/?site=science/memory&topic=latest',
@@ -270,13 +282,7 @@ angular.module('pencilsToPixelsApp')
 
 
 
-        {
-            author: 'Australian Writer\’s Marketplace', 
-            title : 'The Australian Writer\’s Marketplace, 2007/2008 Edition',
-            publisher: 'AWM Print Editions.', 
-            srcPage: 'research',
-            book: true
-        },
+
 
 
 
@@ -288,6 +294,7 @@ angular.module('pencilsToPixelsApp')
             accessed: '11 May 2014',
             srcPage: 'presentation'
         },
+
         {   
             author: 'Rosenbloom, H.,',
             title: 'Book-trade blues, 27 February 2012', 
